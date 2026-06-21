@@ -1,0 +1,25 @@
+song.mp3
+<audio id="bgMusic" loop>
+    <source src="song.mp3" type="audio/mpeg">
+</audio>
+function showMessage(){
+document.getElementById("surprise").style.display="block";
+window.scrollTo({
+top:document.body.scrollHeight,
+behavior:"smooth"
+});
+}
+function showMessage(){
+
+document.getElementById("bgMusic").play();
+
+document.getElementById("surprise").style.display="block";
+
+window.scrollTo({
+top:document.body.scrollHeight,
+behavior:"smooth"
+});
+}
+<button onclick="document.getElementById('bgMusic').play()">
+🎵 Play Music
+</button>
